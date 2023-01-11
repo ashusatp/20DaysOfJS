@@ -26,6 +26,6 @@ switch (day) {
         break;
 
     default:
-        console.log("saale gawar 0 se 6 tak hi enter karna tha");
+        console.log("0 se 6 tak hi enter karna tha");
         break;
 }
