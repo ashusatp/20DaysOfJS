@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <ul id="list">
+        <li>list1</li>
+        <li>list2</li>
+        <li>list3</li>
+        <li>list4</li>
+    </ul>
+    <!--  add 5th list -->
+
+
+
+
+    <script>
+        let list1 = document.getElementById('list');
+        let item = document.createElement('li');
+        item.textContent = "new text 5";
+        list1.appendChild(item);
+    </script>
+</body>
+
+</html>

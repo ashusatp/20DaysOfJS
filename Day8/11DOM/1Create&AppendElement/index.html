@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="intro">
+        <p>Hello guys</p>
+    </div>
+
+
+    <script>
+        let elm = document.getElementById('intro');
+
+        // creating an element
+        let h1 = document.createElement('h1');
+        // append that element
+        elm.appendChild(h1);
+
+        let text = document.createTextNode("This is h1 tag");
+        // append text in h1 tag
+        h1.appendChild(text);
+
+        // assign one or more classes or ID
+        h1.className = "try pi";
+        h1.id= "intro1";
+
+        // appent someThing in the body
+        let h2 = document.createElement('h2');
+        let text2 = document.createTextNode("This is the body of HTML");
+        h2.appendChild(text2);
+        let body = document.body;
+        body.appendChild(h2);
+
+        h2.className = "intro2.00 hi";
+        h2.id = "new";
+
+        // add text through properties
+        let h3 = document.createElement('h3');
+        h3.textContent = "content added";
+        body.appendChild(h3);
+
+        // readContent
+        let para = document.getElementById('intro').firstElementChild;
+        console.log(para.textContent);
+
+        
+    </script>
+</body>
+</html>
