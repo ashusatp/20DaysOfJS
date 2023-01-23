@@ -1,0 +1,6 @@
+########### Stack usage ##############
+
+[+] Browser history tracking
+[+] Undo operation when typing
+[+] Expression conversions (infix to postfix)
+[+] Call stack in JavaScript runtime 
