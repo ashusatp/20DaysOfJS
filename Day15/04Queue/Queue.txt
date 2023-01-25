@@ -21,3 +21,5 @@
 [+] isEmpty() - check if the queue is is empty 
 [+] size() - get the number of the elements in the queue 
 [+] print() - visualize the elements in the queue 
+
+
