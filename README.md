@@ -1,6 +1,7 @@
 # 20DaysOfJS
 
-Day 01: - JavaScript Basics and Strings
+Day 01: - JavaScript Basics and Strings  
+
 Day 02: - Conditional statements, Switch case, and loops 
 Day 03: - Arrays in JavaScript
 Day 04: - Objects in JavaScript
